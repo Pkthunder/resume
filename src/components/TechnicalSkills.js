@@ -1,8 +1,57 @@
 import React from 'react';
-import { Header } from 'semantic-ui-react';
+import { List, Rating } from 'semantic-ui-react';
 
 const TechnicalSkills = props => (
-  <Header as='h1'>Jared Perreault</Header>
+  <List>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      JavaScript
+      <List.Content floated="right">
+        <Rating defaultRating={9} maxRating={10} />
+      </List.Content>
+    </List.Item>
+  </List>
 );
 
 export default TechnicalSkills;

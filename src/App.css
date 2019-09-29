@@ -1,3 +1,8 @@
+html {
+  font-size: 16px;
+  padding-top: 15px;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -14,9 +19,44 @@ main > .main {
 }
 
 main > .sidebar {
-  flex: 1 0 0;
+  width: 650px;
+}
+
+header .ui.header {
+  display: inline-block;
 }
 
 .ui.segment {
   border-radius: initial;
+}
+
+.section .ui.header:not(.dividing) {
+  margin-bottom: 5px;
+}
+
+.section .ui.header.dividing {
+  margin-top: 15px;
+}
+
+.contact-info a {
+  color: #fff !important;
+}
+
+/* **************** title ******************** */
+.title {
+  display: flex;
+}
+
+.title .ui.segment:first-of-type {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.title .ui.segment:last-of-type {
+  flex: 1;
+  text-align: center;
+}
+
+.title .ui.segment:last-of-type .header.huge {
+  font-size: 4rem;
 }

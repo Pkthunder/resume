@@ -2,11 +2,13 @@ import React from 'react';
 import { Segment, Header } from 'semantic-ui-react';
 
 const Title = props => (
-  <div>
-    <Segment compact inverted color="blue" padded="hor">
-      <Header size="large">Jared Perreault</Header>
+  <div className="title">
+    <Segment compact inverted color="blue" padded>
+      <Header size="huge">Jared Perreault</Header>
     </Segment>
-    <Header size="huge">Veteran & Fullstack Engineer</Header>
+    <Segment basic>
+      <Header size="huge">Veteran & Fullstack Engineer</Header>
+    </Segment>
   </div>
 );
 

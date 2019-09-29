@@ -17,13 +17,6 @@ function App() {
       </header>
       <main>
         <div className="main">
-          <Section header="Education">
-            <Section.Item
-              subheader="University of Massachusetts: Lowell"
-              date="Sept 2010 - Dec 2016"
-              desc="Bachelors of Science: Computer Science"
-            />
-          </Section>
           <Section header="Amazon Alexa">
             <Section.Item
               subheader="Web Development Engineer, L4"
@@ -83,6 +76,13 @@ function App() {
           </Section>
         </div>
         <div className="sidebar">
+          <Section header="Education">
+            <Section.Item
+              subheader="University of Massachusetts: Lowell"
+              date="Sept 2010 - Dec 2016"
+              desc="Bachelors of Science: Computer Science"
+            />
+          </Section>
           <ContactInfo />
           <Section header="Technical Skills">
             <TechnicalSkills />
